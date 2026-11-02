@@ -1,6 +1,6 @@
 # Pumelela Consulting Solutions
 
-A responsive React website for Pumelela Consulting Solutions, built with Vite. Visual direction and local imagery are drawn from the supplied Brand Application Gallery; company content comes from the supplied business profile.
+A responsive React website for Pumelela Consulting Solutions, built with Vite. The visual direction follows the supplied brand gallery's colour palette and identity. The site uses a custom animated brand composition in place of staged imagery; company content comes from the supplied business profile.
 
 ## Develop
 
@@ -23,12 +23,12 @@ Deploy the generated `dist/` directory to a static host. Assets and fonts are bu
 ## Website features
 
 - Responsive, accessible navigation and keyboard focus styles
-- Five expandable service descriptions
-- Company vision, mission, values and engagement process
+- A ten-part narrative covering the challenge, transformation, services, standards, approach, vision and values
+- Five detailed service areas and three standards
+- Scroll-triggered motion, a reading progress indicator and reduced-motion support
 - Frequently asked questions
 - Validated consultation form and downloadable enquiry
 - Search metadata and branded SVG favicon
-- Reduced-motion support
 
 ## Contact form
 
