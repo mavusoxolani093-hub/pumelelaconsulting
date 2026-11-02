@@ -11,3 +11,12 @@
 .r-hero-image:before{content:'';position:absolute;right:7%;top:9%;width:43%;height:78%;border-radius:48% 48% 3% 3%;background:#a61f30;opacity:.8}
 .r-hero-image:after{content:'';position:absolute;right:0;top:0;width:51%;height:100%;background:url('/images/portrait-real.jpg') center 24%/cover no-repeat;filter:grayscale(1) contrast(1.05) brightness(.56);mask-image:linear-gradient(90deg,transparent 0%,#000 18%);opacity:.94}
 @media(max-width:760px){.r-hero-image:before{right:-12%;top:0;width:80%;height:60%;border-radius:50%;opacity:.48}.r-hero-image:after{right:0;top:0;width:100%;height:54%;background-position:center 24%;mask-image:linear-gradient(0deg,transparent 0%,#000 45%);filter:grayscale(1) brightness(.55)}.r-hero-content{background:linear-gradient(0deg,#252729 3%,transparent 67%)}}
+
+/* The fixed navigation follows the section underneath it. */
+.r-header{position:fixed;left:0;right:0;top:0;width:100%;color:#252729}
+.retro main{padding-top:82px}
+.r-header.dark{background:#252729;color:#fff}
+.r-header.dark .r-nav-cta{background:#c62639;color:#fff}
+.r-header.dark .r-nav nav a:hover{color:#ff7a87}
+.r-header.dark .r-menu{color:#fff}
+@media(max-width:760px){.retro main{padding-top:70px}.r-header.dark .r-nav nav.open{background:#252729;color:#fff}}
